@@ -11,6 +11,7 @@ body {
   font-family: 'Helvetica', sans-serif;
 }
 
+/* nav */
 ul {
   list-style: none;
 }
@@ -48,3 +49,21 @@ h1 {
   display: flex;
 }
 
+/* showcase */
+#showcase {
+  background: url('img/3.jpg') no-repeat center center/cover;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.content {
+  color: #fff;
+}
+
+.text-primary {
+  font-size: 4rem;
+
+}
