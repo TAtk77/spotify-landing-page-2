@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;800;900&display=swap');
 
 * {
   box-sizing: border-box;
@@ -19,10 +19,13 @@ ul {
 a {
   color: #fff;
   text-decoration: none;
+  font-size: 0.95rem;
+  font-weight: 700;
 }
 
 h1 {
   font-weight: 500;
+  font-size: 1.6rem;
 }
 
 .navbar {
@@ -65,5 +68,32 @@ h1 {
 
 .text-primary {
   font-size: 4rem;
+  font-weight: 700;
+}
 
+.text-secondary {
+  font-size: 1.3rem;
+}
+
+/* footer */
+.footer {
+  background-color: #0e0e0e;
+  padding: 100px;
+  display: flex;
+}
+
+.footer ul {
+  padding-right: 130px;
+  font-size: 0.8rem;
+  line-height: 2.6;
+}
+
+.footer ul li{
+  color: #fff; 
+}
+
+.footer ul h3 {
+  text-transform: uppercase;
+  color: #808040;
+  letter-spacing: 0.8px;
 }
