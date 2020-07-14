@@ -66,6 +66,32 @@ h1 {
   color: #fff;
 }
 
+.content h2, p {
+  padding: 10px;
+}
+
+.content .btn {
+  width: 300px;
+  margin-top: 20px;
+  padding: 20px 20px;
+  border-radius: 50px;
+  background-color: #008040;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.content .btn:focus {
+  outline: none;
+}
+
+.content .btn:hover {
+  background-color: rgba(0, 0, 0, 0);
+  border: 2px solid #fff;
+  transition: ease-in-out 200ms;
+}
+
 .text-primary {
   font-size: 4rem;
   font-weight: 700;
@@ -74,6 +100,7 @@ h1 {
 .text-secondary {
   font-size: 1.3rem;
 }
+
 
 /* footer */
 .footer {
