@@ -64,29 +64,30 @@ h1 {
 
 .content {
   color: #fff;
+  text-align: center;
 }
 
 .content h2, p {
   padding: 10px;
 }
 
-.content .btn {
+.content button {
   width: 300px;
   margin-top: 20px;
   padding: 20px 20px;
   border-radius: 50px;
-  background-color: #008040;
+  background-color: #00b32d;
   color: #fff;
   text-transform: uppercase;
   font-weight: 800;
   letter-spacing: 1px;
 }
 
-.content .btn:focus {
+.content button:focus {
   outline: none;
 }
 
-.content .btn:hover {
+.content button:hover {
   background-color: rgba(0, 0, 0, 0);
   border: 2px solid #fff;
   transition: ease-in-out 200ms;
